@@ -1,0 +1,5 @@
+cd $(cd $(dirname $0); pwd)
+while(true) do
+screen -S MarkaXxBot -X kill
+screen -S MarkaXxBot ./start
+done
